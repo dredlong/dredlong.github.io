@@ -1,0 +1,316 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-weight: 300;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+hr {
+    border-color: #fff;
+    border-width: 4px;
+    margin-bottom: 40px;
+}
+
+a, a:hover {
+    color: #0F737B;
+    font-weight: 400;
+}
+
+.header .lead {
+    font-weight: 400;
+}
+
+.no-pad {
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+
+.bg-primary {
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.5);
+    background-color: #0F737B !important;
+}
+
+.text-primary {
+    color: #0F737B !important;
+}
+
+.landing h1 {
+    font-size: 5em;
+    color: #0F737B;
+    margin-bottom: 45px;
+}
+
+.landing hr {
+    border-width: 6px;
+    margin-left: 0px;
+    border-color: #0F737B;
+}
+
+.boxed-text {
+    color: #555;
+    margin-top: 12%;
+    padding-bottom: 2em;
+}
+
+.btn.btn-outline-primary {
+    color: #0F737B;
+    border-color: #0F737B;
+    margin-right: 1em;
+}
+
+.btn.btn-outline-primary:hover {
+    background-color: #0F737B;
+    color: #ddd;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 120px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    transform: translateX(250px);
+    overflow-y: auto;
+    background: rgba(0,0,0,0.6);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    color: #555;
+    padding: 15px;
+    font-size: 2em;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background: url(../img/bg.jpg) no-repeat center center scroll;*/
+    background: #eee;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Services */
+
+.contact {
+    padding: 50px 0;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.contact a, .contact a:hover {
+    text-decoration: none;
+}
+
+.contact a .service-item {
+    transition: all .3s ease-in-out;
+}
+
+.contact a .service-item h4 {
+    visibility: hidden;
+}
+
+.contact a:hover .service-item h4 {
+    visibility: visible;
+}
+
+.contact a:hover .service-item {
+    transform: scale(1.1);
+}
+
+.service-item {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Footer */
+
+footer {
+    padding: 40px 0;
+    padding-bottom: 20px;
+    background-color: #222;
+    color: #eee;
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.8);
+}
+
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    padding: 12px;
+    text-align: center;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+#menu-close {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 60px;
+    height: 60px;
+    top: 15px;
+    right: 15px;
+}
+
+.modal-title {
+    font-weight: 700;
+    color: #0F737B;
+}
