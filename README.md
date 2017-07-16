@@ -4,4 +4,4 @@ Personal website based on [Stylish Portfolio](http://startbootstrap.com/template
 
 ## Creator
 
-Built by **[http://www.edlong.me](Ed Long)**. Base theme created and maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Built by **[Ed Long](http://www.edlong.me)**. Base theme created and maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
