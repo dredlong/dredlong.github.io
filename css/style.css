@@ -34,7 +34,7 @@ hr {
 }
 
 a, a:hover {
-    color: #0F737B;
+    color: #2C4E77;
     font-weight: 400;
 }
 
@@ -49,23 +49,23 @@ a, a:hover {
 
 .bg-primary {
     box-shadow: inset 0px 5px 15px rgba(0,0,0,0.5);
-    background-color: #0F737B !important;
+    background-color: #2C4E77 !important;
 }
 
 .text-primary {
-    color: #0F737B !important;
+    color: #2C4E77 !important;
 }
 
 .landing h1 {
     font-size: 5em;
-    color: #0F737B;
+    color: #2C4E77;
     margin-bottom: 45px;
 }
 
 .landing hr {
     border-width: 6px;
     margin-left: 0px;
-    border-color: #0F737B;
+    border-color: #2C4E77;
 }
 
 .boxed-text {
@@ -75,13 +75,13 @@ a, a:hover {
 }
 
 .btn.btn-outline-primary {
-    color: #0F737B;
-    border-color: #0F737B;
+    color: #2C4E77;
+    border-color: #2C4E77;
     margin-right: 1em;
 }
 
 .btn.btn-outline-primary:hover {
-    background-color: #0F737B;
+    background-color: #2C4E77;
     color: #ddd;
 }
 
@@ -313,4 +313,9 @@ footer {
 .modal-title {
     font-weight: 700;
     color: #0F737B;
+}
+
+footer a {
+    filter: brightness(180%);
+    font-weight: 400;
 }
